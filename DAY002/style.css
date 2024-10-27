@@ -1,0 +1,16 @@
+/* Styling for class examples */
+.text-center {
+    text-align: center;
+}
+
+.block-element {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Styling for ID example */
+#unique-element {
+    color: blue;
+    font-weight: bolder;
+}

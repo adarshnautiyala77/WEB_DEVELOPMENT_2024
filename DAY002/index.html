@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics - Forms, Elements, IDs, and Classes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Heading with ID -->
+    <h1 id="unique-element">HTML Forms and Elements</h1>
+
+    <!-- Paragraph with a class -->
+    <p class="text-center">This paragraph is centered using a class.</p>
+
+    <!-- Form example -->
+    <form action="#" method="post">
+      <!-- Input fields inside the form -->
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+      />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+      />
+      <br /><br />
+
+      <!-- Password input field -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+      <br /><br />
+
+      <!-- Radio buttons for selecting gender -->
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="female">Female</label>
+      <br /><br />
+
+      <!-- Checkbox for terms agreement -->
+      <input type="checkbox" id="terms" name="terms" />
+      <label for="terms">I agree to the terms and conditions</label>
+      <br /><br />
+
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Inline element example: Span -->
+    <p>
+      This is an example of an <span style="color: red">inline element</span>,
+      which is displayed within the flow of text.
+    </p>
+
+    <!-- Block element example: Div -->
+    <div class="block-element">
+      This is a block element (a <code>&lt;div&gt;</code>) with class
+      "block-element". Block elements take up the full width available and start
+      on a new line.
+    </div>
+
+    <!-- Another block element with a class -->
+    <div class="text-center">
+      This is another block element that uses the "text-center" class for
+      centered text.
+    </div>
+
+    <!-- Button with an ID -->
+    <div class="text-center">
+      <button id="unique-element">Click Me</button>
+    </div>
+    <!-- IDs should be unique on the page and are often used for targeting specific elements with JavaScript or CSS. -->
+  </body>
+</html>
