@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Introduction</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .internal-style {
+      color: #3498db;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>CSS Introduction</h1>
+  
+  <!-- Inline CSS -->
+  <p style="color: green;">This is an example of inline CSS.</p>
+
+  <!-- Internal CSS with Class Selector -->
+  <p class="internal-style">This paragraph is styled with internal CSS.</p>
+
+  <!-- ID Selector in External CSS -->
+  <p id="external-style">This paragraph is styled with external CSS.</p>
+
+  <!-- Descendant Selector in External CSS -->
+  <div class="container">
+    <p>This is a paragraph inside a container.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* External CSS file */
+
+/* ID selector */
+#external-style {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Class selector */
+  .container {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Descendant selector */
+  .container p {
+    color: #2c3e50;
+    font-size: 1.1em;
+    margin: 0;
+  }
+  
+  /* Universal selector */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
