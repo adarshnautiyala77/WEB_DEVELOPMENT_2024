@@ -1,0 +1,71 @@
+/* CSS Selectors */
+/* Universal selector applies to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Element selectors */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Class selector */
+  .content {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+  }
+  
+  /* ID selector (for unique elements if needed) */
+  #uniqueElement {
+    color: #ff6347;
+    margin: 15px 0;
+    padding: 10px;
+  }
+  
+  /* Pseudo-class selector */
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Margins and Padding */
+  header {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Font, Text, and Color Properties */
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Styling specific text inside a paragraph */
+  .highlight {
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
