@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity and Units Demo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <h1>Main Title</h1>
+    <div class="container">
+        <p class="text-box">
+            This is a paragraph with a class selector. It uses rem for font-size and some percentage-based margins.
+        </p>
+        <p id="special-text">
+            This paragraph has an ID selector, giving it a higher specificity. It also uses viewport width (vw) for padding.
+        </p>
+        <p class="text-box" style="color: crimson; font-size: 2rem;">
+            This paragraph has inline styles, which give it the highest specificity. The color is crimson, and the font size is 2rem.
+        </p>
+    </div>
+</body>
+</html>

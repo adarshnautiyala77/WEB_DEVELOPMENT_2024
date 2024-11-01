@@ -1,0 +1,33 @@
+/* CSS Specificity and Cascade */
+body {
+    font-size: 16px; /* Base font size for rem */
+    margin: 0;
+    padding: 0;
+    color: black; /* Lower specificity */
+}
+
+h1 {
+    font-size: 2em; /* Uses em to scale based on parent font size */
+    color: navy; /* Higher specificity than body */
+}
+
+.container {
+    width: 80%; /* Percentage based width */
+    height: 50vh; /* Viewport height */
+    padding: 20px; /* Fixed px padding */
+    background-color: lightgray;
+}
+
+/* Class selector */
+.text-box {
+    font-size: 1.5rem; /* Uses rem based on root font size */
+    color: darkblue;
+    margin: 10px 5%; /* Fixed and percentage-based margin */
+}
+
+/* ID selector - Higher specificity */
+#special-text {
+    font-size: 1.2rem;
+    color: darkgreen;
+    padding: 5px 2vw; /* Viewport width */
+}
